@@ -7,7 +7,7 @@ const GifExpertApp = () => {
   const [tickets, setTickets] = useState([]);
 
   const handleChanceChange = (event) => {
-    const inputChance = event.target.value.slice(0, 4); // limit chance to 4 digits
+    const inputChance = event.target.value.slice(0, 4); // limit chance to 4 digits hvsdu
     setChance(inputChance);
   }
 
